@@ -18,6 +18,7 @@ public class CreateIndex {
 
 	@Test
 	public void createIndex() {
+		//新的加入注释
 		try {
 			Directory directory = FSDirectory.open(Paths.get("E:\\框架视频\\lucene\\资料\\lucene"));
 			Analyzer analyzer = new HanLPAnalyzer();
